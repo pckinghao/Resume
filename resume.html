@@ -8,6 +8,31 @@
   <title>Document</title>
   <link rel="stylesheet" href="resume.css">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1466709_2vdd8p7stsx.css">
+  <style>
+    @media print {
+      .aside {
+        width: 200px;
+      }
+      .main {
+        margin-left: 200px;
+      }
+      .aside .user::after {
+      border-right-width: 100px;
+      border-left-width: 100px;
+    }
+      .pill {
+        display: none;
+      }
+
+      .main .more {
+        margin-left: 20px;
+      }
+
+      .wrapper {
+        margin: 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
