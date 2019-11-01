@@ -198,27 +198,5 @@ body {
   font-size: 14px;
 }
 
-@media print {
-      .aside {
-        width: 200px;
-      }
-      .main {
-        margin-left: 200px;
-      }
-      .aside .user::after {
-      border-right-width: 100px;
-      border-left-width: 100px;
-    }
-      .pill {
-        display: none;
-      }
 
-      .main .more {
-        margin-left: 20px;
-      }
-
-      .wrapper {
-        margin: 0;
-      }
-    }
 
