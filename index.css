@@ -28,11 +28,21 @@ body {
 	overflow: auto;
 }
 
+.userInfo {
+	display: flex;
+}
+
 .aside {
-	float: left;
 	width: 260px;
 }
 
+.main {
+	flex: 1;
+	background: #fff;
+	padding: 40px;
+	margin: 10px 20px 0 0;
+}
+/* 顶部左侧 */
 .aside .user {
 	text-align: center;
 	padding: 20px 0 20px 0;
@@ -83,51 +93,7 @@ body {
 	color: #7bbaaa;
 }
 
-.aside .skills {
-	background: #7bbaaa;
-	padding: 20px;
-	color: #fff;
-}
-
-.aside .skills ul {
-	margin-left: 20px;
-}
-.aside .skills ul li {
-	margin-top: 10px;
-}
-
-/* .aside .skills dt {
-  color: #eee;
-  margin-top: 15px;
-}
-
-.aside .skills dd {
-  height: 4px;
-  background: #257767;
-  border-radius: 2px;
-  margin-top: 10px;
-} */
-
-.aside .skills .mastery {
-	display: block;
-	height: 4px;
-	background: #fff;
-	border-radius: 2px;
-}
-
-.aside .other h2 {
-	margin: 20px 0 0 20px;
-}
-
-.main {
-	margin-left: 260px;
-	background: #fff;
-	padding: 40px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 20px;
-}
-
+/* 顶部右侧 */
 .main .intro {
 	overflow: auto;
 }
@@ -141,15 +107,38 @@ body {
 .main .intro p {
 	margin-left: 120px;
 }
-
 .main h2 {
 	font-size: 40px;
 	color: #d9d9d9;
 	text-align: center;
-	margin-top: 18px;
+}
+.main .skills {
+	/* background: #7bbaaa;
+	color: #fff; */
+	padding: 20px 0 0 0;
 }
 
-.main .pill {
+.main .skills ul {
+	margin-left: 20px;
+}
+.main .skills ul li {
+	margin-top: 10px;
+}
+
+.work {
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 0 40px;
+	background-color: #fff;
+}
+.work h2 {
+	font-size: 40px;
+	color: #d9d9d9;
+	text-align: center;
+	/* margin-top: 18px; */
+}
+
+.work .pill {
 	float: left;
 	margin-top: 5px;
 	background: #000;
@@ -162,23 +151,23 @@ body {
 	border-radius: 20px;
 }
 
-.main .more {
+.work .more {
 	margin-left: 140px;
 	border-left: 1px solid #eee;
 }
 
-.main h3 {
+.work h3 {
 	color: #666;
 	font-size: 20px;
 	font-weight: normal;
 }
 
-.main h3 strong {
+.work h3 strong {
 	color: #111;
 	font-weight: bold;
 }
 
-.main h3::before {
+.work h3::before {
 	content: "";
 	display: inline-block;
 	width: 6px;
@@ -190,17 +179,30 @@ body {
 	left: -5px;
 }
 
-.main h4 {
+.work h4 {
 	color: rgb(0, 0, 0);
 	margin-top: 20px;
 	margin-left: 40px;
 }
 
-.main .more ul {
+.work .more ul {
 	margin-left: 50px;
 	padding-bottom: 20px;
 }
-.main .more li {
+.work .more li {
 	color: #666;
-	font-size: 14px;
+	/* font-size: 14px; */
+}
+.work .more li strong {
+	font-weight: bold;
+}
+.about {
+	padding: 40px;
+	margin: 0 20px 10px 20px;
+	background-color: #fff;
+}
+.about h2 {
+	font-size: 40px;
+	color: #d9d9d9;
+	text-align: center;
 }
