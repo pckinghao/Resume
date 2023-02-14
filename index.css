@@ -38,9 +38,10 @@ body {
 
 .main {
 	flex: 1;
-	background: #fff;
+	background: #7bbaaa;
+	/* background: #fff; */
 	padding: 40px;
-	margin: 10px 20px 0 0;
+	margin: 20px 20px 20px 0;
 }
 /* 顶部左侧 */
 .aside .user {
@@ -95,6 +96,7 @@ body {
 
 /* 顶部右侧 */
 .main .intro {
+	/* background: #7bbaaa; */
 	overflow: auto;
 }
 
@@ -113,8 +115,7 @@ body {
 	text-align: center;
 }
 .main .skills {
-	/* background: #7bbaaa;
-	color: #fff; */
+	color: #fff;
 	padding: 20px 0 0 0;
 }
 
@@ -126,9 +127,8 @@ body {
 }
 
 .work {
-	margin-right: 20px;
-	margin-left: 20px;
-	padding: 0 40px;
+	margin: 0 20px 0 20px;
+	padding: 20px 40px 0 40px;
 	background-color: #fff;
 }
 .work h2 {
@@ -184,7 +184,6 @@ body {
 	margin-top: 20px;
 	margin-left: 40px;
 }
-
 .work .more ul {
 	margin-left: 50px;
 	padding-bottom: 20px;
