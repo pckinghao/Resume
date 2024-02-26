@@ -163,9 +163,17 @@ h4 {
 }
 .resume-body .projects .projects-list .list-item ul {
 	margin-top: 10px;
-	padding-left: 30px;
+	padding-left: 15px;
 	list-style-type: circle;
 	font-size: 14px;
 	color: #666;
+}
+.resume-body .projects .projects-list .list-item ul li{
+	display: flex;
+}
+.resume-body .projects .projects-list .list-item ul li .list-item-header{
+	width: 80px;
+	flex-grow: 0;
+	flex-shrink: 0;
 }
 /* 自我评价 */
