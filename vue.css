@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.layout {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+:root {
+	--bgColor: #374957;
+	--capsuleColor: #728cba;
+}
+body {
+	font: 16px/1.5 SimSun, STKaiti, "Microsoft YaHei", SimHei, Helvetica, Arial;
+	color: #333;
+	/* background: rgb(26, 25, 25); */
+}
+
+.wrapper {
+	/* margin-top: 10px; */
+	margin-bottom: 30px;
+	overflow: auto;
+}
+
+h3 strong {
+	font-size: 20px;
+	color: #111;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 18px;
+	color: #111;
+	font-weight: bold;
+}
+
+/* 头部个人信息 */
+.userInfo {
+	/* padding-top: 40px; */
+	position: relative;
+}
+
+.userInfo img {
+	position: absolute;
+	top: 25px;
+	left: 50px;
+	width: 120px;
+	border: 3px solid #c9ae96;
+}
+
+.userInfo .block-golden {
+	height: 10px;
+	background-color: #c9ae96;
+}
+
+.userInfo .block-darkblue {
+	height: 150px;
+	padding-left: 200px;
+	background-color: var(--bgColor);
+	color: #fff;
+}
+
+.userInfo .block-darkblue .block-darkblue-name {
+	padding-top: 10px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.userInfo .block-darkblue .block-darkblue-info {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.userInfo .block-darkblue .block-darkblue-info div {
+	margin-bottom: 5px;
+	width: 33%;
+}
+
+.resume-body {
+	padding: 20px 35px 75px 35px;
+	background-color: #f8f8f8;
+}
+
+/* 求职意向 */
+
+.resume-body .job-intention,
+.skills,
+.educational,
+.work,
+.projects,
+.selfEvaluation {
+	margin-bottom: 10px;
+}
+
+.resume-body .header-title {
+	display: flex;
+	align-items: center;
+}
+
+.resume-body .header-title .iconfont {
+	display: inline-block;
+	padding: 5px 15px;
+	border-radius: 50px;
+	font-size: 20px;
+	color: #fff;
+	background-color: var(--capsuleColor);
+}
+
+.resume-body .header-title .dashed {
+	flex: 1;
+	margin-left: 20px;
+	height: 0;
+	border: 1px dashed var(--capsuleColor);
+}
+
+.resume-body-pd {
+	padding: 10px 20px 0 20px;
+}
+/* 求职意向 */
+.resume-body .job-intention .job-info {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.resume-body .job-intention .job-info div {
+	flex: 0 0 auto;
+	margin-bottom: 5px;
+	width: 30%;
+}
+
+/* 工作经历 */
+.resume-body .work .work-list span {
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.resume-body .work .work-list .list-item {
+	margin: 10px 0 10px 30px;
+}
+.resume-body .work .work-list .list-item ul {
+	padding-left: 30px;
+	font-size: 14px;
+	color: #666;
+}
+
+/* 项目经历 */
+.resume-body .projects .projects-list .list-item {
+	margin: 0 0 10px 0px;
+}
+.resume-body .projects .projects-list .list-item h4 {
+	margin-top: 10px;
+}
+.resume-body .projects .projects-list .list-item ul {
+	margin-top: 10px;
+	padding-left: 15px;
+	list-style-type: circle;
+	font-size: 14px;
+	color: #666;
+}
+.resume-body .projects .projects-list .list-item ul li{
+	display: flex;
+}
+.resume-body .projects .projects-list .list-item ul li .list-item-header{
+	width: 80px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+/* 自我评价 */
