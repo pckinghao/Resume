@@ -126,6 +126,12 @@ h4 {
 .resume-body-pd {
 	padding: 10px 20px 0 20px;
 }
+.resume-body-pd-tag {
+	padding: 5px 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ce9f67;
+}
 /* 求职意向 */
 .resume-body .job-intention .job-info {
 	display: flex;
@@ -150,7 +156,7 @@ h4 {
 }
 .resume-body .work .work-list .list-item ul {
 	padding-left: 30px;
-	font-size: 14px;
+	font-size: 16px;
 	color: #666;
 }
 
@@ -165,7 +171,7 @@ h4 {
 	margin-top: 10px;
 	padding-left: 15px;
 	list-style-type: circle;
-	font-size: 14px;
+	font-size: 16px;
 	color: #666;
 }
 .resume-body .projects .projects-list .list-item ul li{
